@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Source Code Pro", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+body{
+     min-height: 100vh;
+}
+.index-header{
+    background-color: rgb(255, 235, 205);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.index-header h1{
+    margin-left:20px ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.nav{
+    display: flex;
+    list-style-type: none;
+    height: 100%;
+    margin: 0 100px;
+}
+.nav li{
+    padding: 10px 30px;
+    font-size: 30px;
+
+}
+.nav a,.index-header a{
+    text-decoration: none;
+    all:unset;
+    cursor: pointer;
+    height: 100%;
+}
+.nav li:hover{
+    background-color:  rgb(240, 190, 114);
+}
+.main-con{
+    /* display: flex;
+    flex-direction: column; */
+    margin-left: 10px;
+    margin-top: 50px;
+}
+.main-con h3{
+    font-size: 50px;
+}
+
+.main-con h4{
+    margin-top: 20px;
+    font-size: 24px;
+    text-align: center;
+}
+.main-con p{
+    margin-top: 10px;
+    font-size: 16px;
+    text-indent: 100px;
+}
+
+.main-con ul{
+    margin:20px 40px;
+}
+.main-con ul li{
+    padding: 4px;
+}
+
+footer{
+    background-color: blanchedalmond;
+    height: 40px;
+    position: ṣticky;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.book-con{
+    display: flex;
+    gap:40px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 30px;
+}
+
+.card p{
+ font-size: 13px;
+}
+.card:hover{
+    background-color: beige;
+    box-shadow:2px 2px 30px 4px black;
+}
+form{
+    width: 60%;
+    border-radius: 30px;
+    margin: auto;
+    border: 2px solid rgb(72, 72, 33);
+    padding: 30px;
+}
+.form-title{
+    text-align: center;
+}
+form input{
+    border: 1px solid black;
+}

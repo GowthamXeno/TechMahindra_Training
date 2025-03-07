@@ -1,0 +1,42 @@
+<div class="container m-5 p-5" style="float:left;">
+    <h2>Enquiry Form</h2>
+    <form (ngSubmit)="submitForm()">
+      
+      <div class="mb-3">
+        <label for="name" class="form-label">Name:</label>
+        <input type="text" placeholder="Enter Name..." id="name" class="form-control" [(ngModel)]="enquiry.name" name="name" required>
+      </div>
+  
+      <div class="mb-3">
+        <label for="email" class="form-label">Email:</label>
+        <input type="email" placeholder="Enter Email..." id="email" class="form-control" [(ngModel)]="enquiry.email" name="email" required>
+      </div>
+  
+      <div class="mb-3">
+        <label for="serviceType" class="form-label">Service Type:</label>
+        <select id="serviceType" class="form-select" [(ngModel)]="enquiry.serviceType" name="serviceType" required>
+            <option value="">Select Service Type</option>
+            <option value="Branding and Communication">Branding and Communication</option>
+            <option value="Inbound & Content Marketing">Inbound & Content Marketing</option>
+            <option value="Film & Webinar">Film & Webinar</option>
+            <option value="Digital Marketing">Digital Marketing</option>
+            <option value="ECommerce & Websites">ECommerce & Websites</option>
+            <option value="Market Analysis">Market Analysis</option>
+        </select>
+      </div>
+  
+      <div class="mb-3">
+        <label for="message" class="form-label">Message:</label>
+        <textarea id="message" placeholder="Enter Message..." class="form-control" [(ngModel)]="enquiry.message" name="message" rows="4" required></textarea>
+      </div>
+      <div class="alert alert-danger" *ngIf="this.errors.length>=1">
+        <ul>
+            <li *ngFor="let error of errors">{{error}}</li>
+        </ul>
+    </div>
+  
+      <button type="submit" class="btn btn-success">Submit</button>
+  
+    </form>
+  </div>
+  

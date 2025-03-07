@@ -1,0 +1,25 @@
+<h3>Projects : </h3>
+<div style="width: 60%;">
+    <div class="mb-3 ms-4" style="width: 50%;">
+        <label for="projectStatus" class="form-label">Select the Project Status</label>
+        <select id="projectStatus" class="form-select" [(ngModel)]="selectedStatus">
+            <option value="All">All</option>
+            <option value="active">Active</option>
+            <option value="completed">Completed</option>
+            <option value="on hold">On Hold</option>
+        </select>
+    </div>
+    <div class="d-flex mb-3 ms-4">
+        <div class="flex-fill me-2">
+            <label for="minTeamSize" class="form-label">Min Team Size</label>
+            <input type="number" id="minTeamSize" class="form-control" [(ngModel)]="min" placeholder="Min Team Size">
+        </div>
+        <div class="flex-fill">
+            <label for="maxTeamSize" class="form-label">Max Team Size</label>
+            <input type="number" id="maxTeamSize" class="form-control" [(ngModel)]="max" placeholder="Max Team Size">
+        </div>
+    </div>
+</div>
+<div class="d-flex flex-wrap justify-content-around">
+    <app-project-card *ngFor="let project of projectslist | filterprojectstatus:selectedStatus | filterteamsize:min:max" [project]="project"></app-project-card>
+</div>

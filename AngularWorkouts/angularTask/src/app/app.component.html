@@ -1,0 +1,7 @@
+<div class="parent">
+  <h1>Parent Component</h1>
+  <div *ngFor="let x of mobileBrand" class="brand-box" (click)="sendData(x)">
+    <h4>{{x}}</h4>
+  </div>
+  <app-child-comp [item]='selectedItem' (send)='ReceiveData($event)'></app-child-comp>
+</div>

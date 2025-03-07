@@ -1,0 +1,94 @@
+LoginServlet.java :
+
+
+package Servlets;
+import java.io.IOException;
+import java.io.PrintWriter;
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+public class LoginServlet {
+	private static final long serialVersionUID = 1L;
+
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+	
+		String username = request.getParameter("username");
+		String password = request.getParameter("password");
+		System.out.println("username: " + username);
+		System.out.println("password: " + password);
+		PrintWriter writer = response.getWriter();
+		String htmlRespone = "<html>";
+		        htmlRespone += "<h2>Your username is: " + username + "<br/>";      
+		        htmlRespone += "Your password is: " + password + "</h2></html>";    
+		          writer.println(htmlRespone);
+	}
+
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		doGet(request, response);
+	}
+
+}
+=========================================================================================
+
+
+
+
+MyFirstServlet.java :
+
+package Servlets;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+public class MyFirstServlet {
+
+	public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
+		
+		response.getWriter().append("Served at: ").append(request.getContextPath());
+		
+		response.setContentType("text/html");      
+	       PrintWriter pwriter = response.getWriter();    
+	       pwriter.println("<html><body>");
+	       pwriter.println("<h2>Html file from Servlet!</h2>");
+	       pwriter.println("</body></html>");
+	}
+}
+
+========================================================================================
+
+
+index.html
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="Mam" method="get">
+	Enter number 1 : <input type="text" name="num1"><br>
+	Enter number 2 : <input type="text" name="num2"><br>
+	<input type="submit">
+	</form>
+	<br>
+	<br>
+	<br>
+	
+	<form name="loginForm" action="loginServlet">
+    Username: <input type="text" name="username"/> <br/>
+    Password: <input type="password" name="password"/> <br/>
+    <input type="submit" value="Login" />
+    
+    </form>
+</body>
+</html>
+
+=========================================================================================

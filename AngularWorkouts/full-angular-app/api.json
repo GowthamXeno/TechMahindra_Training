@@ -1,0 +1,354 @@
+{
+  "services": [
+    {
+      "id": 1,
+      "title": "Branding and Communication",
+      "description": "We help brands connect and engage by finding a unique voice in the market. From strategy and positioning to logo and graphic design to advertising campaigns, we produce identity and communications materials that build credibility, as well as sales.",
+      "image": "branding.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Inbound &  Content Marketing",
+      "description": "We have a team of inbound-certified content experts, writers and designers who know your market and can develop an inbound marketing strategy that will help you attract visitors to your website, convert them into leads and then into customers.",
+      "image": "inbound.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Film &  Webinar",
+      "description": "Our talent pool includes musicians, song writers and video technicians who can create unique soundtracks for your corporate films or put together a YouTube video that showcases your products or company. We also help you create, host and promote webinars and podcasts or live streaming programs.",
+      "image": "films.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Digital Marketing",
+      "description": "WE can help tie your online and offline branding together with digital and social media services, pay per click (PPC), SEO/SEM or Google Adwords.  At UP we work with all social media networks, and can help you with both your paid activities and organic presence. ",
+      "image": "digital.jpg"
+    },
+    {
+      "id": 5,
+      "title": "ECommerce & Websites",
+      "description": "We provide full website design and development services, including UX design and ecommerce. Our team can set up CMS systems, including HubSpot, WordPress, Drupal and more.  ",
+      "image": "ecommerce.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Market Analysis",
+      "description": "UP starts all major marketing, branding, advertising and creative service projects with a thorough briefing process and market research. This phase might include customer research or a START ME UP workshop.  UP LAB also offers in-depth analysis and market insights to help you understand your customers. ",
+      "image": "market.jpg"
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "name": "Project 1",
+      "description": "Project 1 description",
+      "status": "active",
+      "startDate": "2021-01-01",
+      "endDate": "2021-01-31",
+      "teamSize": 10,
+      "image": "project1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Project 2",
+      "description": "Project 2 description",
+      "status": "completed",
+      "startDate": "2021-02-01",
+      "endDate": "2021-02-28",
+      "teamSize": 8,
+      "image": "project2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Project 3",
+      "description": "Project 3 description",
+      "status": "active",
+      "startDate": "2021-03-01",
+      "endDate": "2021-03-31",
+      "teamSize": 12,
+      "image": "project3.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Project 4",
+      "description": "Project 4 description",
+      "status": "on hold",
+      "startDate": "2021-04-01",
+      "endDate": "2021-04-30",
+      "teamSize": 15,
+      "image": "project4.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Project 5",
+      "description": "Project 5 description",
+      "status": "active",
+      "startDate": "2021-05-01",
+      "endDate": "2021-05-31",
+      "teamSize": 9,
+      "image": "project5.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Project 6",
+      "description": "Project 6 description",
+      "status": "completed",
+      "startDate": "2021-06-01",
+      "endDate": "2021-06-30",
+      "teamSize": 11,
+      "image": "project6.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Project 7",
+      "description": "Project 7 description",
+      "status": "active",
+      "startDate": "2021-07-01",
+      "endDate": "2021-07-31",
+      "teamSize": 14,
+      "image": "project7.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Project 8",
+      "description": "Project 8 description",
+      "status": "on hold",
+      "startDate": "2021-08-01",
+      "endDate": "2021-08-31",
+      "teamSize": 10,
+      "image": "project8.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Project 9",
+      "description": "Project 9 description",
+      "status": "active",
+      "startDate": "2021-09-01",
+      "endDate": "2021-09-30",
+      "teamSize": 13,
+      "image": "project9.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Project 10",
+      "description": "Project 10 description",
+      "status": "completed",
+      "startDate": "2021-10-01",
+      "endDate": "2021-10-31",
+      "teamSize": 7,
+      "image": "project10.jpg"
+    }
+  ],
+"enquiries": [
+    {
+      "id": "ef47",
+      "name": "Joseph",
+      "email": "joseph@gmail.com",
+      "serviceType": "Branding and Communication",
+      "message": "We need an ecommerce site to be done"
+    },
+    {
+      "id": "ef48",
+      "name": "Joseph",
+      "email": "joseph@gmail.com",
+      "serviceType": "Inbound & Content Marketing",
+      "message": "We need an ecommerce site to be done"
+    },
+    {
+      "id": "ef49",
+      "name": "Joseph",
+      "email": "joseph@gmail.com",
+      "serviceType": "Film &  Webinar",
+      "message": "We need an ecommerce site to be done"
+    },
+    {
+      "id": "ef50",
+      "name": "Joseph",
+      "email": "joseph@gmail.com",
+      "serviceType": "Digital Marketing",
+      "message": "We need an ecommerce site to be done"
+    },
+    {
+      "id": "ef51",
+      "name": "Joseph",
+      "email": "joseph@gmail.com",
+      "serviceType": "ECommerce & Websites",
+      "message": "We need an ecommerce site to be done"
+    },
+    {
+      "id": "ef52",
+      "name": "Joseph",
+      "email": "joseph@gmail.com",
+      "serviceType": "Market Analysis",
+      "message": "We need an ecommerce site to be done"
+    },
+    {
+      "id": "ef53",
+      "name": "Joseph",
+      "email": "joseph@gmail.com",
+      "serviceType": "Branding and Communication",
+      "message": "We need an ecommerce site to be done"
+    },
+    {
+      "id": "ef54",
+      "name": "Joseph",
+      "email": "joseph@gmail.com",
+      "serviceType": "Inbound & Content Marketing",
+      "message": "We need an ecommerce site to be done"
+    },
+    {
+      "id": "ef55",
+      "name": "Joseph",
+      "email": "joseph@gmail.com",
+      "serviceType": "Film &  Webinar",
+      "message": "We need an ecommerce site to be done"
+    },
+    {
+      "id": "ef56",
+      "name": "Joseph",
+      "email": "joseph@gmail.com",
+      "serviceType": "Digital Marketing",
+      "message": "We need an ecommerce site to be done"
+    },
+    {
+      "id": "ef57",
+      "name": "Joseph",
+      "email": "joseph@gmail.com",
+      "serviceType": "ECommerce & Websites",
+      "message": "We need an ecommerce site to be done"
+    },
+    {
+      "id": "ef58",
+      "name": "Joseph",
+      "email": "joseph@gmail.com",
+      "serviceType": "Market Analysis",
+      "message": "We need an ecommerce site to be done"
+    },
+    {
+      "id": "ef59",
+      "name": "Joseph",
+      "email": "joseph@gmail.com",
+      "serviceType": "Branding and Communication",
+      "message": "We need an ecommerce site to be done"
+    },
+    {
+      "id": "ef60",
+      "name": "Joseph",
+      "email": "joseph@gmail.com",
+      "serviceType": "Inbound & Content Marketing",
+      "message": "We need an ecommerce site to be done"
+    },
+    {
+      "id": "ef61",
+      "name": "Joseph",
+      "email": "joseph@gmail.com",
+      "serviceType": "Film &  Webinar",
+      "message": "We need an ecommerce site to be done"
+    },
+    {
+      "id": "ef62",
+      "name": "Joseph",
+      "email": "joseph@gmail.com",
+      "serviceType": "Digital Marketing",
+      "message": "We need an ecommerce site to be done"
+    },
+    {
+      "id": "ef63",
+      "name": "Joseph",
+      "email": "joseph@gmail.com",
+      "serviceType": "ECommerce & Websites",
+      "message": "We need an ecommerce site to be done"
+    },
+    {
+      "id": "ef64",
+      "name": "Joseph",
+      "email": "joseph@gmail.com",
+      "serviceType": "Market Analysis",
+      "message": "We need an ecommerce site to be done"
+    },
+    {
+      "id": "ef65",
+      "name": "Joseph",
+      "email": "joseph@gmail.com",
+      "serviceType": "Branding and Communication",
+      "message": "We need an ecommerce site to be done"
+    },
+    {
+      "id": "ef66",
+      "name": "Joseph",
+      "email": "joseph@gmail.com",
+      "serviceType": "Inbound & Content Marketing",
+      "message": "We need an ecommerce site to be done"
+    },
+    {
+      "id": "ef67",
+      "name": "Joseph",
+      "email": "joseph@gmail.com",
+      "serviceType": "Film &  Webinar",
+      "message": "We need an ecommerce site to be done"
+    },
+    {
+      "id": "ef68",
+      "name": "Joseph",
+      "email": "joseph@gmail.com",
+      "serviceType": "Digital Marketing",
+      "message": "We need an ecommerce site to be done"
+    },
+    {
+      "id": "ef69",
+      "name": "Joseph",
+      "email": "joseph@gmail.com",
+      "serviceType": "ECommerce & Websites",
+      "message": "We need an ecommerce site to be done"
+    },
+    {
+      "id": "ef70",
+      "name": "Joseph",
+      "email": "joseph@gmail.com",
+      "serviceType": "Market Analysis",
+      "message": "We need an ecommerce site to be done"
+    },
+    {
+      "id": "ef71",
+      "name": "Joseph",
+      "email": "joseph@gmail.com",
+      "serviceType": "Branding and Communication",
+      "message": "We need an ecommerce site to be done"
+    },
+    {
+      "id": "ef72",
+      "name": "Joseph",
+      "email": "joseph@gmail.com",
+      "serviceType": "Inbound & Content Marketing",
+      "message": "We need an ecommerce site to be done"
+    },
+    {
+      "id": "ef73",
+      "name": "Joseph",
+      "email": "joseph@gmail.com",
+      "serviceType": "Film & Webinar",
+      "message": "We need an ecommerce site to be done"
+    },
+    {
+      "id": "ef74",
+      "name": "Joseph",
+      "email": "joseph@gmail.com",
+      "serviceType": "Digital Marketing",
+      "message": "We need an ecommerce site to be done"
+    },
+    {
+      "id": "ef75",
+      "name": "Joseph",
+      "email": "joseph@gmail.com",
+      "serviceType": "ECommerce & Websites",
+      "message": "We need an ecommerce site to be done"
+    },
+    {
+      "id": "ef76",
+      "name": "Joseph",
+      "email": "joseph@gmail.com",
+      "serviceType": "Market Analysis",
+      "message": "We need an ecommerce site to be done"
+    }
+  ]
+}
