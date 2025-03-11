@@ -1,0 +1,22 @@
+<div class="col-md-12 mb-3" (click)="selectFriend()">
+    <div class="card p-3 shadow-sm bg-light">
+      <div class="d-flex justify-content-between align-items-center">
+        <h5>{{ friend.username }}</h5>
+        <div *ngIf="friend.owesToAmount > 0 || friend.owedByAmount > 0; else noBalance">
+          <span *ngIf="friend.owesToAmount > 0" class="text-danger">
+            You owe: ₹{{ friend.owesToAmount }}
+          </span>
+          <span *ngIf="friend.owesToAmount > 0 && friend.owedByAmount > 0" class="mx-2">|</span>
+          <span *ngIf="friend.owedByAmount > 0" class="text-success">
+            Owes you: ₹{{ friend.owedByAmount }}
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- No Balance Message -->
+  <ng-template #noBalance>
+    <span class="text-muted">No balance</span>
+  </ng-template>
+  

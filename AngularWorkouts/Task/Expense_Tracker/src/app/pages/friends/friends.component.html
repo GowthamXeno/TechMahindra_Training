@@ -1,0 +1,25 @@
+<div class="container mt-4">
+  <h2>My Friends</h2>
+
+  <div class="row">
+    <app-friend-card
+      *ngFor="let friend of friends"
+      [friend]="friend"
+      (friendSelected)="viewFriendDetails($event)"
+    ></app-friend-card>
+  </div>
+
+  <div *ngIf="selectedFriend">
+    <h3>Expenditures with {{ selectedFriend.username }}</h3>
+    <div *ngFor="let expense of selectedFriendExpenses" class="card p-3 mt-3 shadow-sm">
+      <h6>{{ expense.description }} (Expense ID: {{ expense.expenseId }})</h6>
+      <p>Amount: ₹{{ expense.amount }}</p>
+      <p>Time: {{ expense.timestamp | date: 'short' }}</p>
+      <p *ngIf="expense.youPaid" class="text-success">You paid</p>
+      <p *ngIf="expense.theyPaid" class="text-danger">{{ selectedFriend.username }} paid</p>
+      <p *ngIf="expense.owedToYou > 0">Owed to you: ₹{{ expense.owedToYou }}</p>
+      <p *ngIf="expense.youOwe > 0">You owe: ₹{{ expense.youOwe }}</p>
+
+    </div>
+  </div>
+</div>

@@ -1,0 +1,38 @@
+.dashboard-container {
+    padding: 20px;
+  }
+  
+  .summary-section {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .card {
+    padding: 15px;
+    border-radius: 10px;
+    background: #f4f4f4;
+    text-align: center;
+    flex: 1;
+  }
+  
+  .friends-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .friends-section li {
+    cursor: pointer;
+    padding: 8px;
+    margin-bottom: 5px;
+    background: #e0e0e0;
+    border-radius: 5px;
+  }
+  
+  .friend-details {
+    margin-top: 20px;
+    padding: 15px;
+    background: #f9f9f9;
+    border-radius: 8px;
+  }
+  

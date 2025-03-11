@@ -1,0 +1,50 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<div class="container mt-5">
+  <h1 class="text-center mb-4">Dashboard</h1>
+  
+  <div class="row mb-4">
+    <div class="col-md-6">
+      <div class="card text-center">
+        <div class="card-body">
+          <h3 class="card-title">Total Owed by You</h3>
+          <p class="card-text">₹{{ totalOwes }}</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card text-center">
+        <div class="card-body">
+          <h3 class="card-title">Total Owed to You</h3>
+          <p class="card-text">₹{{ totalOwed }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="card mb-4">
+    <div class="card-body">
+      <h2 class="card-title">Your Friends</h2>
+      <ul class="list-group">
+        <li class="list-group-item" *ngFor="let friend of friends" (click)="viewFriendDetails(friend.id)">
+          {{ friend.username }} 
+          <span *ngIf="friend.owesToAmount"> - You owe: ₹{{ friend.owesToAmount }}</span>
+          <span *ngIf="friend.owedByAmount"> - Owes you: ₹{{ friend.owedByAmount }}</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+  
+  <div *ngIf="selectedFriend" class="card">
+    <div class="card-body">
+      <h3 class="card-title">{{ selectedFriend.username }}</h3>
+      <ul class="list-group">
+        <li class="list-group-item" *ngFor="let expense of selectedFriendExpenses">
+          {{ expense.description }} - ₹{{ expense.amount }} 
+          <span *ngIf="expense.youOwe"> (You owe: ₹{{ expense.youOwe }})</span>
+          <span *ngIf="expense.owedToYou"> (They owe you: ₹{{ expense.owedToYou }})</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
