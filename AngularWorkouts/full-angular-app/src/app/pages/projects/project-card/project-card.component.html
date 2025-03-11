@@ -1,7 +1,7 @@
 
 
 
-        <div class="card mb-4 m-2" style="width: 28rem;">
+        <div class="card mb-4 m-2" style="width: 18rem;">
             <img src="http://localhost:8090/{{project.image}}" class="card-img-top" alt="Project Image">
             <div class="card-body">
                 <h5 class="card-title">{{ project.name }}</h5>
@@ -9,8 +9,8 @@
             </div>
             <ul class="list-group list-group-flush">
                 <li class="list-group-item">Status: {{ project.status }}</li>
-                <li class="list-group-item">Start Date: {{ project.startDate | date:'MM, MMMM yyyy' }}</li>
-                <li class="list-group-item">End Date: {{ project.endDate | date:'MM, MMMM yyyy' }}</li>
+                <li class="list-group-item">Start Date: {{ project.startDate | date:'dd MMM yyyy' }}</li>
+                <li class="list-group-item">End Date: {{ project.endDate |  date:'dd MMM yyyy' }}</li>
                 <li class="list-group-item">Team Size: {{ project.teamSize }}</li>
             </ul>
         </div>

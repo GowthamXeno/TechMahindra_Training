@@ -13,13 +13,15 @@ import { HttpClientModule } from '@angular/common/http';
 import { ServiceCardComponent } from './pages/home/service-card/service-card.component';
 import { ProjectCardComponent } from './pages/projects/project-card/project-card.component';
 import { EnquiryFormComponent } from './pages/home/enquiry-form/enquiry-form.component';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { LoginComponent } from './common/login/login.component';
 import { EnquiriesComponent } from './pages/enquiries/enquiries.component';
 import { FilterservicePipe } from './pipes/filterservice.pipe';
 import { HighlightPipe } from './pipes/highlight.pipe';
 import { FilterteamsizePipe } from './pipes/filterteamsize.pipe';
 import { FilterprojectstatusPipe } from './pipes/filterprojectstatus.pipe';
+import { ServiceDetailsComponent } from './pages/home/service-details/service-details.component';
+import { EnquiryResponseComponent } from './pages/enquiries/enquiry-response/enquiry-response/enquiry-response.component';
 
 @NgModule({
   declarations: [
@@ -38,13 +40,16 @@ import { FilterprojectstatusPipe } from './pipes/filterprojectstatus.pipe';
     FilterservicePipe,
     HighlightPipe,
     FilterteamsizePipe,
-    FilterprojectstatusPipe
+    FilterprojectstatusPipe,
+    ServiceDetailsComponent,
+    EnquiryResponseComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    FormsModule,
+    FormsModule, //template driven forms(ngModel)
+    ReactiveFormsModule //reactive forms (formControl and formBuilder)
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -6,6 +6,7 @@ import { ContactsComponent } from './pages/contacts/contacts.component';
 import { ProjectsComponent } from './pages/projects/projects.component';
 import { LoginComponent } from './common/login/login.component';
 import { EnquiriesComponent } from './pages/enquiries/enquiries.component';
+import { ServiceDetailsComponent } from './pages/home/service-details/service-details.component';
 
 const routes: Routes = [
   {path:'',component:HomeComponent},
@@ -13,6 +14,7 @@ const routes: Routes = [
   {path:'contact',component:ContactsComponent},	
   {path:'projects',component:ProjectsComponent},
   {path:'enquiries',component:EnquiriesComponent},
+  {path:'services/:id',component:ServiceDetailsComponent},
   {path:'login',component: LoginComponent}
 ];
 
