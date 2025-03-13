@@ -17,7 +17,8 @@ class _AddEditScreenState extends State<AddEditScreen> {
   TextEditingController _dateController = TextEditingController();
   TextEditingController _timeController = TextEditingController();
   TextEditingController _reasonController = TextEditingController();
-
+  final List<String> doctors = ["Dr. Smith", "Dr. Johnson", "Dr. Williams"];
+  String? selectedDoctor;
   @override
   void initState() {
     super.initState();
@@ -26,35 +27,45 @@ class _AddEditScreenState extends State<AddEditScreen> {
       _dateController.text = widget.appointment!['date'];
       _timeController.text = widget.appointment!['time'];
       _reasonController.text = widget.appointment!['reason'];
+      selectedDoctor = widget.appointment!['doctor'];
     }
   }
 
-Future<void> saveAppointment() async {
-  if (_formKey.currentState!.validate()) {
-    final newAppointment = Appointment(
-      id: widget.appointment != null ? widget.appointment!['id'] as int? : null,
-      name: _nameController.text,
-      date: _dateController.text,
-      time: _timeController.text,
-      reason: _reasonController.text,
-    );
+  Future<void> saveAppointment() async {
+    if (_formKey.currentState!.validate()) {
+      final newAppointment = Appointment(
+        id:
+            widget.appointment != null
+                ? widget.appointment!['id'] as int?
+                : null,
+        name: _nameController.text,
+        date: _dateController.text,
+        time: _timeController.text,
+        reason: _reasonController.text,
+        doctor: selectedDoctor ?? doctors.first,
+      );
 
-    if (widget.appointment == null) {
-      await DatabaseHelper.insertAppointment(newAppointment.toMap());
-    } else {
-      await DatabaseHelper.updateAppointment(newAppointment.id!, newAppointment.toMap());
+      if (widget.appointment == null) {
+        await DatabaseHelper.insertAppointment(newAppointment.toMap());
+      } else {
+        await DatabaseHelper.updateAppointment(
+          newAppointment.id!,
+          newAppointment.toMap(),
+        );
+      }
+
+      Navigator.pop(context, true);
     }
-
-    Navigator.pop(context, true);
   }
-}
-
-
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text(widget.appointment == null ? 'Add Appointment' : 'Edit Appointment')),
+      appBar: AppBar(
+        title: Text(
+          widget.appointment == null ? 'Add Appointment' : 'Edit Appointment',
+        ),
+      ),
       body: Padding(
         padding: EdgeInsets.all(16.0),
         child: Form(
@@ -64,7 +75,8 @@ Future<void> saveAppointment() async {
               TextFormField(
                 controller: _nameController,
                 decoration: InputDecoration(labelText: 'Patient Name'),
-                validator: (value) => value!.isEmpty ? 'Enter patient name' : null,
+                validator:
+                    (value) => value!.isEmpty ? 'Enter patient name' : null,
               ),
               TextFormField(
                 controller: _dateController,
@@ -78,7 +90,8 @@ Future<void> saveAppointment() async {
                   );
                   if (pickedDate != null) {
                     setState(() {
-                      _dateController.text = pickedDate.toLocal().toString().split(' ')[0];
+                      _dateController.text =
+                          pickedDate.toLocal().toString().split(' ')[0];
                     });
                   }
                 },
@@ -108,6 +121,23 @@ Future<void> saveAppointment() async {
                 validator: (value) => value!.isEmpty ? 'Enter reason' : null,
               ),
               SizedBox(height: 20),
+              DropdownButtonFormField<String>(
+                decoration: InputDecoration(labelText: "Select Doctor"),
+                value: selectedDoctor,
+                items: doctors.map((doctor) {
+                  return DropdownMenuItem(
+                    value: doctor,
+                    child: Text(doctor),
+                  );
+                }).toList(),
+                onChanged: (value) {
+                  setState(() {
+                    selectedDoctor = value;
+                  });
+                },
+                validator: (value) => value == null ? "Select a doctor" : null,
+              ),
+              SizedBox(height: 30),
               ElevatedButton(
                 onPressed: saveAppointment,
                 child: Text('Save Appointment'),

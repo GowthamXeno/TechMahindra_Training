@@ -35,7 +35,8 @@ static Future<int> updateAppointment(int id, Map<String, dynamic> appointment) a
             name TEXT,
             date TEXT,
             time TEXT,
-            reason TEXT
+            reason TEXT,
+            doctor TEXT
           )
         ''');
       },

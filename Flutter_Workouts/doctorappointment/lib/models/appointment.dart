@@ -4,8 +4,9 @@ class Appointment {
   String date;
   String time;
   String reason;
+  String doctor;
 
-  Appointment({this.id, required this.name, required this.date, required this.time, required this.reason});
+  Appointment({this.id, required this.name, required this.date, required this.time, required this.reason,required this.doctor,});
 
   Map<String, dynamic> toMap() {
     return {
@@ -14,6 +15,7 @@ class Appointment {
       'date': date,
       'time': time,
       'reason': reason,
+      'doctor': doctor,
     };
   }
 
@@ -24,6 +26,7 @@ class Appointment {
       date: map['date'],
       time: map['time'],
       reason: map['reason'],
+      doctor: map['doctor'],
     );
   }
 }

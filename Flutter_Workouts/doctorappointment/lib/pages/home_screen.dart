@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import '../db_helper.dart';
 import 'add_edit_screen.dart';
 import '../models/appointment.dart';
+import './appointment_details_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   @override
@@ -43,6 +44,14 @@ class _HomeScreenState extends State<HomeScreen> {
                   child: ListTile(
                     title: Text(appointment.name),
                     subtitle: Text("${appointment.date} at ${appointment.time}\nReason: ${appointment.reason}"),
+                     onTap: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => AppointmentDetailsScreen(appointment: appointment),
+                        ),
+                      );
+                    },
                     trailing: Row(
                       mainAxisSize: MainAxisSize.min,
                       children: [
