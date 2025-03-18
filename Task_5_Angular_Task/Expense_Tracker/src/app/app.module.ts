@@ -5,7 +5,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { FriendsComponent } from './pages/friends/friends.component';
-import { AddFriendComponent } from './pages/friends/add-friend/add-friend.component';
 import { FriendCardComponent } from './pages/friends/friend-card/friend-card.component';
 import { ExpenditureComponent } from './pages/expenditure/expenditure.component';
 import { LoginComponent } from './pages/login/login.component';
@@ -18,7 +17,6 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     AppComponent,
     DashboardComponent,
     FriendsComponent,
-    AddFriendComponent,
     FriendCardComponent,
     ExpenditureComponent,
     LoginComponent,

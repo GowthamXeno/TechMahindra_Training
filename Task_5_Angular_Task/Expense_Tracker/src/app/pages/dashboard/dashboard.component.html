@@ -8,7 +8,7 @@
       <div class="card text-center">
         <div class="card-body">
           <h3 class="card-title">Total Owed by You</h3>
-          <p class="card-text">₹{{ totalOwes }}</p>
+          <h5 class="card-text">₹{{ totalOwes | number:'1.2-2' }}</h5>
         </div>
       </div>
     </div>
@@ -16,7 +16,7 @@
       <div class="card text-center">
         <div class="card-body">
           <h3 class="card-title">Total Owed to You</h3>
-          <p class="card-text">₹{{ totalOwed }}</p>
+          <h5 class="card-text">₹{{ totalOwed | number:'1.2-2' }}</h5>
         </div>
       </div>
     </div>

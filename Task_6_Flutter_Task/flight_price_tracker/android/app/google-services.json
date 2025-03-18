@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "794327583986",
+    "project_id": "flight-price-tracker-techm",
+    "storage_bucket": "flight-price-tracker-techm.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:794327583986:android:bc321ec277617a851d946b",
+        "android_client_info": {
+          "package_name": "com.example.flight_price_tracker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCku0EFEkhcc-ajoxrHfnKyE-KnNfCL1hE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

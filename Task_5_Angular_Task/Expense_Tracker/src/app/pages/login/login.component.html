@@ -1,5 +1,13 @@
-<div class="container d-flex justify-content-center align-items-center vh-100">
-    <div class="card p-4 shadow-sm" style="width: 400px;">
+<div style="background-color: #dbdbdb; min-height: 100vh;">
+  <div class="container d-flex flex-column justify-content-center align-items-center vh-100">
+    <div class="text-center mb-4 px-3">
+      <h1 class="display-5">Welcome to Expense Tracker</h1>
+      <p class="lead text-muted">
+        Track & manage shared expenses effortlessly. Split bills, settle dues, and stay organized with ease!
+      </p>
+    </div>
+
+    <div class="card p-4 shadow-sm w-100" style="max-width: 400px;">
       <h3 class="text-center mb-3">Login</h3>
       
       <form [formGroup]="loginForm" (ngSubmit)="onLogin()">
@@ -7,16 +15,16 @@
           <label for="usernameOrEmail" class="form-label">Username or Email</label>
           <input type="text" class="form-control" id="usernameOrEmail" formControlName="usernameOrEmail" required>
         </div>
-  
+
         <div class="mb-3">
           <label for="password" class="form-label">Password</label>
           <input type="password" class="form-control" id="password" formControlName="password" required>
         </div>
-  
+
         <p class="text-danger" *ngIf="errorMessage">{{ errorMessage }}</p>
-  
+
         <button type="submit" class="btn btn-primary w-100" [disabled]="loginForm.invalid">Login</button>
       </form>
     </div>
   </div>
-  
+</div>
