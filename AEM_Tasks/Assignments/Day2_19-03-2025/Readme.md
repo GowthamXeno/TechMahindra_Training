@@ -1,6 +1,4 @@
-# AEM ASSIGNMENT (19-03-2025)
-
-## *By Gowtham*
+# AEM Training - Day 2 Assignment (19-03-2025) 
 
 ---
 
@@ -28,7 +26,7 @@
 4. Author images using the **Image Component** on a page.
 
 #### Screenshot:
-![Screenshot](screenshots/task2.png)
+![Screenshot](screenshots/screenshot1.png)
 
 ---
 
@@ -44,7 +42,7 @@ Renditions are automatically generated versions of an uploaded asset in differen
 4. View the generated renditions like thumbnails, web-optimized images, etc.
 
 #### Screenshot:
-![Screenshot](screenshots/task3.png)
+![Screenshot](screenshots/screenshot2.png)
 
 ---
 
@@ -63,7 +61,7 @@ Renditions are automatically generated versions of an uploaded asset in differen
 ```
 
 #### Screenshot:
-![Screenshot](screenshots/task4.png)
+![Screenshot](screenshots/screenshot3.png)
 
 ---
 
@@ -94,7 +92,7 @@ public class HelloWorldModel {
 ```
 
 #### Screenshot:
-![Screenshot](screenshots/task5.png)
+![Screenshot](screenshots/screenshot4.png)
 
 ---
 
@@ -111,7 +109,7 @@ The **Package Manager** in AEM is used to create, install, and transfer content 
 3. Build and download the packages.
 
 #### Screenshot:
-![Screenshot](screenshots/task6.png)
+![Screenshot](screenshots/screenshot5.png)
 
 ---
 
@@ -125,6 +123,6 @@ The **Package Manager** in AEM is used to create, install, and transfer content 
 5. Open the published page: `http://localhost:4503/content/gowthamxeno/us/en.html`
 
 #### Screenshot:
-![Screenshot](screenshots/task7.png)
+![Screenshot](screenshots/screenshot6.png)
 
 ---

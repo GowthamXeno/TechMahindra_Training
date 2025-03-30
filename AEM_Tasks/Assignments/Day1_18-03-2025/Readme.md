@@ -1,4 +1,4 @@
-# AEM ASSIGNMENT (18-03-2025) by Gowtham
+# AEM Training - Day 1 Assignment (18-03-2025) 
 
 ### 1. Maven Life Cycle
 

@@ -1,6 +1,6 @@
-# AEM ASSIGNMENT
+# AEM Training - Day 3 Assignment (20-03-2025) 
 
-## *By Gowtham*
+## Output Screenshots : [Click here](#screenshots)
 
 ---
 
@@ -184,13 +184,11 @@ Adding three custom fields (`og:title`, `og:description`, `og:image path`) in **
 
 ---
 
-## Day 3 (21-03-2025)
+## Screenshots
+1. **News Component**  
+   ![News Component Screenshot](screenshots/screenshot1.png)
+   ![News Component Screenshot](screenshots/screenshot2.png)
 
-### 1. Create News Room Page Component Using Base Page Component
-...
-### 2. Create News Room Template Type Using News Room Page Component
-...
-### 3. Apply Styling to News/Hello World Component from UI.Frontend Folder
-...
-
-*(Continue with Day 3 tasks as needed)*
+4. **Base Page Metadata Example**  
+   ![Base Page Metadata Screenshot](screenshots/screenshot3.png)
+   ![Base page](screenshots/screenshot4.png)
