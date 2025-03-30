@@ -8,13 +8,13 @@ Below are the assigned tasks along with their respective links and descriptions:
 
 | Task No. | Task Name                           | Status      | Link                                       | Description                                                        |
 | -------- | ----------------------------------- | ----------- | ------------------------------------------ | ------------------------------------------------------------------ |
-| 1        | Book Store Project                  | ✅ Completed | [Task 1](./Task_1_Book-Store-Project)      | A book store application Using Html Css, Js.              |
-| 2        | Java OOP Fundamentals               | ✅ Completed | [Task 2](./Task_2_JAVA_OOP)                | Implementing core OOP concepts in Java.                            |
-| 3        | Java Advanced Tasks                 | ✅ Completed | [Task 3](./Task_3_JAVA_CONSOLIDATED_TASKS) | A collection of Java-based tasks.                  |
-| 4        | UI/UX Task (Workout Planner)        | ✅ Completed | [Task 4](./Task_4_UI_Task)                 | A UI/UX project for planning workouts using frontend technologies. |
-| 5        | Angular Task - Expense Tracker      | ✅ Completed | [Task 5](./Task_5_Angular_Task)            | An expense tracker built using Angular framework.                  |
-| 6        | Flutter Task - Flight Price Tracker | ✅ Completed | [Task 6](./Task_6_Flutter_Task)            | A Flutter-based flight price tracking application.                 |
-| 7        | AEM TASKS                            | ✅ Completed | [Task 7](./AEM_Tasks)                     | Assignments related to Adobe Experience Manager.              |
+| 1        | Book Store Project                  | ✅ Completed | [Task1](./Task_1_Book-Store-Project)      | A book store application Using Html Css, Js.              |
+| 2        | Java OOP Fundamentals               | ✅ Completed | [Task2](./Task_2_JAVA_OOP)                | Implementing core OOP concepts in Java.                            |
+| 3        | Java Advanced Tasks                 | ✅ Completed | [Task3](./Task_3_JAVA_CONSOLIDATED_TASKS) | A collection of Java-based tasks.                  |
+| 4        | UI/UX Task (Workout Planner)        | ✅ Completed | [Task4](./Task_4_UI_Task)                 | A UI/UX project for planning workouts using frontend technologies. |
+| 5        | Angular Task - Expense Tracker      | ✅ Completed | [Task5](./Task_5_Angular_Task)            | An expense tracker built using Angular framework.                  |
+| 6        | Flutter Task - Flight Price Tracker | ✅ Completed | [Task6](./Task_6_Flutter_Task)            | A Flutter-based flight price tracking application.                 |
+| 7        | AEM TASKS                            | ✅ Completed | [Task7](./AEM_Tasks)                     | Assignments related to Adobe Experience Manager.              |
 
 ## Folder Structure
 
