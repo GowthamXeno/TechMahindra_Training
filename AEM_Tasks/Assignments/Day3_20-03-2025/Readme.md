@@ -6,46 +6,74 @@
 
 ## Day 2 (20-03-2025)
 
-### 1. Create a New Component with News Title, News Detail, Published Date, and Source Using Sling Model
+### 1. Create a New Component with News Headline, News Detail, Published Date, Image, and Titles Using Sling Model
 #### Answer:
-We will create a new **News Component** using the **Sling Model** to display a **news title (h2)**, **news detail (p)**, **published date**, and **source**.
+We will create a new **News Component** using the **Sling Model** to display a **news headline**, **news detail**, **published date**, **image**, and **titles**.
 
 #### Steps:
 1. Create a new component at `apps/gowthamxeno/components/news`.
 2. Implement a Sling Model for this component.
-3. Map component fields (`title`, `detail`, `date`, `source`).
+3. Map component fields (`newsHeadline`, `newsDetail`, `newsPublishDate`, `newsImg`, `newsTitle`).
 4. Update `news.html` to display these fields.
 
 #### Code Snippet (`NewsModel.java`):
 ```java
 @Model(adaptables = Resource.class)
 public class NewsModel {
-    @Inject
-    private String title;
-    
-    @Inject
-    private String detail;
-    
-    @Inject
-    private String date;
-    
-    @Inject
-    private String source;
 
-    public String getTitle() { return title; }
-    public String getDetail() { return detail; }
-    public String getDate() { return date; }
-    public String getSource() { return source; }
+   @Inject
+   private String newsHeadline;
+
+   @ValueMapValue
+   private String newsDetail;
+
+   @ValueMapValue
+   private Date newsPublishDate;
+
+   @ValueMapValue
+   private String newsImg;
+
+   @ValueMapValue
+   private List<String> newsTitle;
+
+   public String getNewsDetail() {
+      return newsDetail;
+   }
+
+   public Date getNewsPublishDate() {
+      return newsPublishDate;
+   }
+
+   public String getNewsImg() {
+      return newsImg;
+   }
+
+   public String getNewsHeadline() {
+      return newsHeadline;
+   }
+
+   public List<String> getNewsTitle() {
+      if (newsTitle != null) {
+         return new ArrayList<String>(newsTitle);
+      } else {
+         return Collections.emptyList();
+      }
+   }
 }
 ```
 
 #### Code Snippet (`news.html`):
 ```html
 <div class="news-item">
-    <h2>${newsModel.title}</h2>
-    <p>${newsModel.detail}</p>
-    <span>${newsModel.date}</span>
-    <small>${newsModel.source}</small>
+   <h2>${newsModel.newsHeadline}</h2>
+   <p>${newsModel.newsDetail}</p>
+   <span>${newsModel.newsPublishDate}</span>
+   <img src="${newsModel.newsImg}" alt="News Image">
+   <ul>
+      <sly data-sly-list.title="${newsModel.newsTitle}">
+         <li>${title}</li>
+      </sly>
+   </ul>
 </div>
 ```
 ## Screenshots
