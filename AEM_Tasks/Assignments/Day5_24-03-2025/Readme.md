@@ -16,7 +16,9 @@ We will create structured **News Articles** in AEM under a dedicated section.
    - **Headline** (`h2`)
    - **Article Content** (`p`)
    - **Publication Date**
-
+## Screenshots
+1. **News Pages**
+   ![Pages](screenshots/screenshot1.png)
 ---
 
 ### 2. Adding the News Component
@@ -39,7 +41,9 @@ The **News Component** will display news articles dynamically.
     <span>${newsModel.publicationDate}</span>
 </div>
 ```
-
+## Screenshots
+1. **News Component**
+   ![Pages](screenshots/screenshot6.png)
 ---
 
 ### 3. Setting Up the Header
@@ -53,7 +57,12 @@ A **Header Experience Fragment** will be created for seamless navigation.
    - **About Me** page
    - **Contact Us** page
 
-
+## Screenshots
+1. **Experience Fragments**
+   ![Pages](screenshots/screenshot7.png)
+---
+2. **Header XF**
+   ![Pages](screenshots/screenshot4.png)
 ---
 
 ### 4. Configuring the Footer
@@ -70,6 +79,9 @@ A **Footer Experience Fragment** will be configured with multiple sections.
 4. **Social Media Section**:
    - Use a **List Component** for social media links.
 
+## Screenshots
+1. **Footer XF**
+   ![Pages](screenshots/screenshot3.png)
 ---
 
 ### 5. Developing a Custom Service
@@ -91,7 +103,9 @@ public class HelloWorldService {
     }
 }
 ```
-
+## Screenshots
+ **Service**
+   ![Service](screenshots/screenshot2.png)
 ---
 
 ### 6. Implementing API Configuration
@@ -109,10 +123,4 @@ https://jsonplaceholder.typicode.com/posts
 ```
 
 ---
-
-## Screenshots
-1. **Pages**
-   ![Pages](screenshots/screenshot1.png)
-2. **Service**
-   ![Service](screenshots/screenshot2.png)
 
