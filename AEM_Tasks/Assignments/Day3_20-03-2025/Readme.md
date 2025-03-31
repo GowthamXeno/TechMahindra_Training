@@ -142,6 +142,9 @@ color:green;
 .news-component p{
 color:yellow;
 }
+.news-date p{
+color:black
+}
 ```
 ## Screenshots
 1. **Clientlib**  
@@ -159,6 +162,9 @@ color:green;
 }
 .news-component p{
 color:yellow;
+}
+.news-date p{
+color:black
 }
 ```
 ## Screenshots
