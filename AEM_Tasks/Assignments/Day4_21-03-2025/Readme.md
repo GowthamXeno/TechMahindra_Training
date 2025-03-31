@@ -31,6 +31,9 @@
     ```
 6. Save and build the project.
 
+## Screenshots
+1. **News Page Component**  
+   ![News Page Component Screenshot](screenshots/screenshot3.png)
 ---
 
 ## Create Custom Page Property - NEWS Configurations  
@@ -65,7 +68,9 @@
     - **Allowed Paths:** `/content/myTraining/*`
 3. Save and activate the template type.
 
-
+## Screenshots
+1. **News Room Template Type**  
+   ![News Room Template Type Screenshot](screenshots/screenshot4.png)
 ---
 
 ## Create News Room Template  
@@ -78,7 +83,9 @@
 2. Click **Create Template** and select **News Room Template Type**.
 3. Name the template **News Room Template**.
 4. Save and enable the template.
-
+## Screenshots
+1. **News Room Template**  
+   ![News Room Template Screenshot](screenshots/screenshot2.png)
 ---
 
 ## Apply Styling to News/HelloWorld Component  
@@ -108,7 +115,9 @@
     }
     ```
 4. Save and deploy the changes.
-
+## Screenshots
+1. **Style :**  
+   ![Style Screenshot](screenshots/screenshot5.png)
 ---
 
 ## Create Custom Style for Components  
@@ -140,9 +149,4 @@
 4. Save and deploy the changes.
 ---
 
-## Screenshots
-1. **Template Type**  
-   ![News Component Screenshot](screenshots/screenshot1.png)
 
-4. **Template**  
-   ![Base Page Metadata Screenshot](screenshots/screenshot2.png)

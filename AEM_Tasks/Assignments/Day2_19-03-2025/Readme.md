@@ -50,7 +50,7 @@ Renditions are automatically generated versions of an uploaded asset in differen
 
 #### Steps:
 1. Open **CRXDE Lite**: `http://localhost:4502/crx/de/`
-2. Navigate to `apps/myTraining/components/helloworld`.
+2. Navigate to `apps/gowthamxeno/components/helloworld`.
 3. Add `firstName` and `lastName` fields in `cq:dialog`.
 4. Print values in `helloWorld.html` using properties.
 
@@ -104,7 +104,7 @@ The **Package Manager** in AEM is used to create, install, and transfer content 
 #### Steps to Create Packages:
 1. Open **Package Manager**: `http://localhost:4502/crx/packmgr/index.jsp`
 2. Create two packages:
-   - **DAM Package** (Images from `/content/dam/myTraining/us/en-us`).
+   - **DAM Package** (Images from `/content/dam/gowthamxeno/us/en-us`).
    - **HelloWorld Component Package** (Component from `/apps/gowthamxeno/components/helloworld`).
 3. Build and download the packages.
 

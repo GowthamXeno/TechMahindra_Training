@@ -11,7 +11,7 @@
 We will create a new **News Component** using the **Sling Model** to display a **news title (h2)**, **news detail (p)**, **published date**, and **source**.
 
 #### Steps:
-1. Create a new component at `apps/myTraining/components/news`.
+1. Create a new component at `apps/gowthamxeno/components/news`.
 2. Implement a Sling Model for this component.
 3. Map component fields (`title`, `detail`, `date`, `source`).
 4. Update `news.html` to display these fields.
@@ -48,7 +48,12 @@ public class NewsModel {
     <small>${newsModel.source}</small>
 </div>
 ```
-
+## Screenshots
+1. **News Component**  
+   ![News Component Screenshot](screenshots/screenshot6.png)
+2. **Cq:Dialog**  
+   ![News Component Screenshot](screenshots/screenshot1.png)
+   <hr>
 ---
 
 ### 2. Create a Multi-field Component (Multiple News) Using Sling Model
@@ -56,7 +61,7 @@ public class NewsModel {
 A multi-field component allows authors to add **multiple news items** dynamically.
 
 #### Steps:
-1. Create a multi-field component at `apps/myTraining/components/multi-news`.
+1. Create a multi-field component at `apps/gowthamxeno/components/multi-news`.
 2. Implement a **Sling Model List**.
 3. Map fields: **title** and **source**.
 4. Update `multi-news.html` to loop through news items.
@@ -82,7 +87,9 @@ public class MultiNewsModel {
     </sly>
 </div>
 ```
-
+## Screenshots
+1. **Multi-news**  
+   ![Multinews](screenshots/screenshot8.png)
 ---
 
 ### 3. Create Clientlibs for News Component
@@ -90,7 +97,7 @@ public class MultiNewsModel {
 Clientlibs are used to **apply styles and scripts** to components.
 
 #### Steps:
-1. Create a clientlib at `apps/myTraining/clientlibs/news`.
+1. Create a clientlib at `apps/gowthamxeno/clientlibs/news`.
 2. Include **CSS and JS** files.
 3. Add clientlib categories in the component.
 
@@ -99,13 +106,18 @@ Clientlibs are used to **apply styles and scripts** to components.
 news.css
 ```
 
-#### Code Snippet (`news.css`):
+#### Code Snippet (`style.css`):
 ```css
-.news-item h2 { color: green; }
-.news-item p { color: yellow; }
-.news-item span { color: black; }
+.news-component h1{
+color:green;
+}
+.news-component p{
+color:yellow;
+}
 ```
-
+## Screenshots
+1. **Clientlib**  
+   ![News Component Screenshot](screenshots/screenshot5.png)
 ---
 
 ### 4. Apply Green Color to Heading (h2), Yellow to News Detail (p), and Black to Date
@@ -114,11 +126,16 @@ This is done using **CSS** inside the `clientlibs/news`.
 
 #### Code Snippet:
 ```css
-.news-item h2 { color: green; }
-.news-item p { color: yellow; }
-.news-item span { color: black; }
+.news-component h1{
+color:green;
+}
+.news-component p{
+color:yellow;
+}
 ```
-
+## Screenshots
+1. **News Component**  
+   ![News Component Screenshot](screenshots/screenshot2.png)
 ---
 
 ### 5. Add Component Style (cop-news-component) in News Component
@@ -126,7 +143,7 @@ This is done using **CSS** inside the `clientlibs/news`.
 We will add a **custom style name** to the news component.
 
 #### Steps:
-1. Navigate to `apps/myTraining/components/news` in **CRXDE Lite**.
+1. Navigate to `apps/gowthamxeno/components/news` in **CRXDE Lite**.
 2. Update `cq:dialog` to include the style property.
 3. Modify `news.html` to include the class.
 
@@ -137,7 +154,9 @@ We will add a **custom style name** to the news component.
     <p>${properties.newsDescription}</p>
 </div>
 ```
-
+## Screenshots
+1. **Style**  
+   ![Style Screenshot](screenshots/screenshot7.png)
 ---
 
 ### 6. Create a Base Page Component and Add Metadata for OG Tags
@@ -155,7 +174,9 @@ We will create a `metadata.html` file to **print OG meta tags**.
 <meta property="og:description" content="${pageProperties.ogDescription}">
 <meta property="og:image" content="${pageProperties.ogImage}">
 ```
-
+## Screenshots
+1. **Base Page Properties**  
+   ![Base Page Screenshot](screenshots/screenshot4.png)
 ---
 
 ### 7. Create Custom Page Properties (Global Properties)
@@ -163,10 +184,12 @@ We will create a `metadata.html` file to **print OG meta tags**.
 Adding three custom fields (`og:title`, `og:description`, `og:image path`) in **Page Properties**.
 
 #### Steps:
-1. Navigate to `apps/myTraining/components/page/basepage/cq:dialog`.
+1. Navigate to `apps/gowthamxeno/components/page/basepage/cq:dialog`.
 2. Add a **tab** named `Global Properties`.
 3. Create fields: `ogTitle`, `ogDescription`, `ogImage`.
-
+## Screenshots
+1. **Global Properties**  
+   ![Global Properties](screenshots/screenshot3.png)
 ---
 
 ### 8. What is ExtraClientLibs and How to Use It in a Multi-field Component?
@@ -177,18 +200,11 @@ Adding three custom fields (`og:title`, `og:description`, `og:image path`) in **
 ```xml
 <extraClientLibs jcr:primaryType="nt:unstructured">
     <css>
-        <item0>clientlibs/myTraining/styles.css</item0>
+        <item0>clientlibs/gowthamxeno/styles.css</item0>
     </css>
 </extraClientLibs>
 ```
-
----
-
 ## Screenshots
-1. **News Component**  
-   ![News Component Screenshot](screenshots/screenshot1.png)
-   ![News Component Screenshot](screenshots/screenshot2.png)
-
-4. **Base Page Metadata Example**  
-   ![Base Page Metadata Screenshot](screenshots/screenshot3.png)
-   ![Base page](screenshots/screenshot4.png)
+1. **extraClientLibs**  
+   ![extraClientLibs Screenshot](screenshots/screenshot9.png)
+---
