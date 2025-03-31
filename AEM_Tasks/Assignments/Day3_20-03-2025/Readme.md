@@ -228,7 +228,8 @@ Adding three custom fields (`og:title`, `og:description`, `og:image path`) in **
 
 ### 8. What is ExtraClientLibs and How to Use It in a Multi-field Component?
 #### Answer:
-**extraClientLibs** is used to include **CSS & JavaScript**.
+**extraClientLibs** is used to include additional resources such as **CSS**, **JavaScript**, **fonts**, or **images** that are required for a component.
+---
 
 #### Code Snippet:
 ```xml
