@@ -22,7 +22,7 @@ This folder represents my exploration and hands-on work with AEM, involving prac
 Each **DayX_XX-03-2025** folder corresponds to a specific training day where I completed assignments related to AEM development. These assignments cover topics such as:
 
 ### **Day-wise Breakdown:**
-- **Day0_17-03-2025:** Installation and Setuo of AEM Environment 
+- **Day0_17-03-2025:** Installation and Setup of AEM Environment 
 - **Day1_18-03-2025:** Introduction to AEM, Understanding CRXDE, Creating Pages
 - **Day2_19-03-2025:** Working with Components, Dialogs, and Templates
 - **Day3_20-03-2025:** Sightly (HTL) Basics, Using Sling Models
