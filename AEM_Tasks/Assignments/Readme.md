@@ -4,7 +4,7 @@ This repository contains my **AEM Training Assignments** and **Project Codebase*
 
 ---
 ## **1. Codebase Folder**
-**Path:** `Codebase/myTraining (Project Folder)/...`
+**Path:** `Codebase/GowthamAssignment (Project Folder)/...`
 
 This folder contains all the files and configurations related to an **AEM Maven Project**. It includes:
 - **Core Bundle Code** (Java classes for business logic)
