@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2025-04-02T17:31:16.959+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/GowthamAssignment/settings/wcm/templates/newsportfolio-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="News 2"
+        sling:resourceType="GowthamAssignment/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="GowthamAssignment/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="GowthamAssignment/components/container"
+                layout="responsiveGrid">
+                <news_article
+                    jcr:created="{Date}2025-04-02T14:06:40.076+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2025-04-02T17:31:16.956+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="GowthamAssignment/components/news-article"
+                    newsDate="{Date}2025-03-05T00:00:00.000+05:30"
+                    newsDescription="India's Unified Payments Interface (UPI) has once again set a new record, processing transactions worth ₹25 lakh crore in a single month. This remarkable achievement highlights the growing adoption of digital payments across the country, fueled by convenience, security, and government-backed initiatives promoting a cashless economy.&#xd;&#xa;&#xd;&#xa;According to the latest data from the National Payments Corporation of India (NPCI), UPI recorded over X billion transactions in the past month, showcasing an exponential rise in both value and volume. The surge in digital payments can be attributed to increasing smartphone penetration, improved internet connectivity, and a shift in consumer preference toward seamless, instant transactions"
+                    newsImage="https://static.toiimg.com/thumb/msid-119512694,width-400,resizemode-4/119512694.jpg"
+                    newsTitle="Rs 25 lakh crore in a month, UPI logs new record"/>
+            </container>
+        </root>
+    </jcr:content>
+</jcr:root>

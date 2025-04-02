@@ -1,0 +1,15 @@
+<sly data-sly-use.clientLib="/libs/granite/sightly/templates/clientlib.html"/>
+<sly data-sly-call="${clientLib.css @ categories='gowthamassignment.newsarticle'}"/>
+
+<div class="news-article">
+    <sly data-sly-use.articleModel="com.GowthamAssignment.core.models.NewsArticleModel"/>
+
+    <h2 class="news-title">
+        ${articleModel.newsTitle} 
+        <span class="news-date">${articleModel.newsDate}</span>
+    </h2>
+
+    <img src="${articleModel.newsImage}" alt="${articleModel.newsTitle}" class="news-image">
+
+    <p class="news-description">${articleModel.newsDescription}</p>
+</div>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2025-04-02T17:13:55.089+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/GowthamAssignment/settings/wcm/templates/newsportfolio-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="About Us"
+        sling:resourceType="GowthamAssignment/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="GowthamAssignment/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="GowthamAssignment/components/container"
+                layout="responsiveGrid">
+                <title
+                    jcr:created="{Date}2025-04-02T16:42:06.810+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2025-04-02T17:12:19.424+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="                                                                     About Us"
+                    sling:resourceType="GowthamAssignment/components/title"
+                    linkTarget="_self"
+                    type="h1"/>
+                <image
+                    jcr:created="{Date}2025-04-02T16:43:10.977+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2025-04-02T17:07:34.485+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="GowthamAssignment/components/image"
+                    alt="Elaine Sciolino"
+                    altValueFromDAM="false"
+                    displayPopupTitle="false"
+                    fileReference="/content/dam/GowthamAssignment/asaas.jpeg"
+                    imageFromPageImage="false"
+                    isDecorative="false"
+                    linkTarget="_self"
+                    titleValueFromDAM="false">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="1"
+                            width="3"/>
+                    </cq:responsive>
+                </image>
+                <text
+                    jcr:created="{Date}2025-04-02T16:46:00.959+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2025-04-02T17:10:01.454+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="GowthamAssignment/components/text"
+                    text="&lt;p>&lt;b>Elaine Sciolino&lt;/b>&lt;/p>&#xd;&#xa;&lt;ul>&#xd;&#xa;&lt;li>&lt;p>&lt;b>Born:&lt;/b> 1948, Buffalo, New York, USA&lt;/p>&#xd;&#xa;&lt;/li>&#xd;&#xa;&lt;li>&lt;p>&lt;b>Nationality:&lt;/b> American&lt;/p>&#xd;&#xa;&lt;/li>&#xd;&#xa;&lt;li>&lt;p>&lt;b>Occupation:&lt;/b> Journalist, Author&lt;/p>&#xd;&#xa;&lt;/li>&#xd;&#xa;&lt;li>&lt;p>&lt;b>Notable Work:&lt;/b> Former Paris bureau chief for &lt;i>The New York Times&lt;/i>&lt;/p>&#xd;&#xa;&lt;/li>&#xd;&#xa;&lt;li>&lt;p>&lt;b>Books:&lt;/b>&lt;/p>&#xd;&#xa;&lt;ul>&#xd;&#xa;&lt;li>&lt;p>&lt;i>The Only Street in Paris: Life on the Rue des Martyrs&lt;/i>&lt;/p>&#xd;&#xa;&lt;/li>&#xd;&#xa;&lt;li>&lt;p>&lt;i>La Seduction: How the French Play the Game of Life&lt;/i>&lt;/p>&#xd;&#xa;&lt;/li>&#xd;&#xa;&lt;li>&lt;p>&lt;i>The Seine: The River That Made Paris&lt;/i>&lt;/p>&#xd;&#xa;&lt;/li>&#xd;&#xa;&lt;/ul>&#xd;&#xa;&lt;/li>&#xd;&#xa;&lt;/ul>&#xd;&#xa;"
+                    textIsRich="true">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="2"
+                            width="6"/>
+                    </cq:responsive>
+                </text>
+                <text_2121623091
+                    jcr:created="{Date}2025-04-02T17:03:48.473+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2025-04-02T17:04:00.190+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="GowthamAssignment/components/text"
+                    text="&lt;p>----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------&lt;/p>&#xd;&#xa;"
+                    textIsRich="true"/>
+                <text_927382675
+                    jcr:created="{Date}2025-04-02T17:04:10.083+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2025-04-02T17:13:55.085+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="GowthamAssignment/components/text"
+                    text="&lt;p>&amp;nbsp;&lt;/p>&#xd;&#xa;&lt;h1>&lt;b>Elaine Sciolino: A Renowned Journalist and Author&lt;/b>&lt;/h1>&#xd;&#xa;&lt;h2>&lt;b>&amp;nbsp;Introduction and Early Life&lt;/b>&lt;/h2>&#xd;&#xa;&lt;p>Elaine Sciolino is an esteemed American journalist and author known for her deep insights into French culture, politics, and history. Born in 1948 in Buffalo, New York, she developed an early passion for storytelling, leading her to pursue journalism.&lt;/p>&#xd;&#xa;&lt;p>Sciolino graduated from Canisius College and later earned a master’s degree in journalism from Northwestern University. She began her career at &lt;i>Newsweek&lt;/i> before joining &lt;i>The New York Times&lt;/i>, where she became a respected voice in international affairs.&lt;/p>&#xd;&#xa;&lt;p>Her early reporting covered a wide range of topics, but she gained particular recognition for her work on the Iranian Revolution. As a young journalist, she had the rare opportunity to interview Ayatollah Khomeini, a defining moment that shaped her career.&lt;/p>&#xd;&#xa;&lt;p>Her coverage of global politics and cultural affairs has made her one of the most influential American correspondents in Europe.&lt;/p>&#xd;&#xa;&lt;h2>&lt;b>&amp;nbsp;Career and Achievements&lt;/b>&lt;/h2>&#xd;&#xa;&lt;p>Elaine Sciolino’s career at &lt;i>The New York Times&lt;/i> was marked by groundbreaking journalism. She served as the &lt;b>Paris bureau chief&lt;/b>, making history as the first woman to hold this position. Her in-depth coverage of French society, government, and diplomatic affairs brought global attention to key issues.&lt;/p>&#xd;&#xa;&lt;p>Beyond reporting, she authored several books that explore France’s unique cultural identity:&lt;/p>&#xd;&#xa;&lt;ul>&#xd;&#xa;&lt;li>&lt;p>&lt;b>The Only Street in Paris: Life on the Rue des Martyrs&lt;/b> – A beautifully written exploration of one of Paris’s most charming streets, filled with history and personal anecdotes.&lt;/p>&#xd;&#xa;&lt;/li>&#xd;&#xa;&lt;li>&lt;p>&lt;b>La Seduction: How the French Play the Game of Life&lt;/b> – An insightful look into the cultural nuances of charm and power in France.&lt;/p>&#xd;&#xa;&lt;/li>&#xd;&#xa;&lt;li>&lt;p>&lt;b>The Seine: The River That Made Paris&lt;/b> – A love letter to the Seine, exploring its historical and cultural significance.&lt;/p>&#xd;&#xa;&lt;/li>&#xd;&#xa;&lt;/ul>&#xd;&#xa;&lt;p>Her literary work is praised for its immersive storytelling and deep research, making her books valuable resources for anyone fascinated by France.&lt;/p>&#xd;&#xa;&lt;p>Sciolino’s contributions to journalism have earned her numerous accolades, including &lt;b>France’s Legion of Honor&lt;/b>, one of the country’s highest distinctions.&lt;/p>&#xd;&#xa;&lt;h2>&lt;b>&amp;nbsp;Legacy and Impact&lt;/b>&lt;/h2>&#xd;&#xa;&lt;p>Elaine Sciolino’s work extends beyond journalism and books—she is a bridge between cultures. Her reporting has provided a deeper understanding of France to the English-speaking world, offering perspectives that go beyond stereotypes.&lt;/p>&#xd;&#xa;&lt;p>She continues to write and contribute to discussions on international relations, history, and society. Even after retiring from &lt;i>The New York Times&lt;/i>, Sciolino remains an influential voice in media, frequently speaking at literary festivals and cultural events.&lt;/p>&#xd;&#xa;&lt;p>Her legacy is one of fearless journalism, intellectual curiosity, and a passion for storytelling. Whether through her books or reporting, Elaine Sciolino has left a lasting impact on the world of journalism.&lt;/p>&#xd;&#xa;"
+                    textIsRich="true">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="1"
+                            width="10"/>
+                    </cq:responsive>
+                </text_927382675>
+            </container>
+        </root>
+    </jcr:content>
+</jcr:root>

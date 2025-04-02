@@ -1,0 +1,17 @@
+<sly data-sly-use.newsroomModel="com.GowthamAssignment.core.models.NewsroomModel" />
+
+<sly data-sly-use.clientLib="/libs/granite/sightly/templates/clientlib.html"/>
+<sly data-sly-call="${clientLib.css @ categories='gowthamassignment.newsroom'}"/>
+
+<div class="newsroom-container">
+    <sly data-sly-list.article="${newsroomModel.newsArticles}">
+        <div class="news-card">
+            <img src="${article.newsImage}" alt="${article.newsTitle}">
+            <div class="news-card-content">
+                <h3 class="news-card-title">${article.newsTitle}</h3>
+                <p class="news-card-date">${article.newsDate}</p>
+                <a href="${article.newsPagePath}" class="read-more">Read More</a>
+            </div>
+        </div>
+    </sly>
+</div>

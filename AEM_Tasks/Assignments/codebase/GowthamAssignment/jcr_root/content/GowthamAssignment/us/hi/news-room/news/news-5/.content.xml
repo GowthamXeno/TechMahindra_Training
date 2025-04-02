@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:isTransCreated="{Boolean}true"
+        cq:lastModified="{Date}2025-03-31T20:00:09.084+05:30"
+        cq:lastModifiedBy="admin"
+        cq:lastTranslationUpdate="{Date}2025-03-31T20:00:09.084+05:30"
+        cq:template="/conf/GowthamAssignment/settings/wcm/templates/news-page"
+        cq:translationSourcePath="/content/GowthamAssignment/us/en/news-room/news/news-5"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="News-5"
+        sling:resourceType="GowthamAssignment/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="GowthamAssignment/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="GowthamAssignment/components/container"
+                layout="responsiveGrid">
+                <title
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="GowthamAssignment/components/title"/>
+                <container
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="GowthamAssignment/components/container"
+                    layout="responsiveGrid"/>
+            </container>
+        </root>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:isDelivered="{Boolean}false"
+        cq:isTransCreated="{Boolean}true"
+        cq:lastModified="{Date}2025-03-31T20:00:09.264+05:30"
+        cq:lastModifiedBy="admin"
+        cq:lastReplicated_publish="{Date}2025-03-31T18:58:35.444+05:30"
+        cq:lastReplicatedBy_publish="admin"
+        cq:lastReplicationAction_publish="Activate"
+        cq:lastTranslationUpdate="{Date}2025-03-31T20:00:09.264+05:30"
+        cq:template="/conf/GowthamAssignment/settings/wcm/templates/news-page"
+        cq:translationSourcePath="/content/GowthamAssignment/us/en/news-room"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[cq:ReplicationStatus2,mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="News-Room"
+        jcr:uuid="706bb5ad-f75b-4112-89ea-9b5f3fdce3a2"
+        sling:resourceType="GowthamAssignment/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="GowthamAssignment/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="GowthamAssignment/components/container"
+                layout="responsiveGrid">
+                <title
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="GowthamAssignment/components/title"/>
+                <container
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="GowthamAssignment/components/container"
+                    layout="responsiveGrid">
+                    <text
+                        jcr:created="{Date}2025-03-31T18:41:12.694+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2025-03-31T18:58:22.182+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="GowthamAssignment/components/text"
+                        text="&lt;h3>&lt;b>Newsroom - Stay Updated with the Latest News&lt;/b>&lt;/h3>&#xd;&#xa;&lt;p>Welcome to the &lt;b>GowthamAssignment Newsroom&lt;/b>, your go-to source for the latest updates, insights, and stories. Here, we bring you &lt;b>timely news, industry trends, and exclusive reports&lt;/b> to keep you informed.&lt;/p>&#xd;&#xa;&lt;h4>&lt;b>What You’ll Find Here:&lt;/b>&lt;/h4>&#xd;&#xa;&lt;p>\ud83d\udccc &lt;b>Latest News&lt;/b> – Stay ahead with recent developments and trending stories.&lt;br>&#xd;&#xa;\ud83d\udccc &lt;b>Insights &amp;amp; Analysis&lt;/b> – In-depth reports and expert opinions on key topics.&lt;br>&#xd;&#xa;\ud83d\udccc &lt;b>Press Releases&lt;/b> – Official announcements and updates.&lt;br>&#xd;&#xa;\ud83d\udccc &lt;b>Featured Articles&lt;/b> – Engaging stories that matter to you.&lt;/p>&#xd;&#xa;"
+                        textIsRich="true"/>
+                </container>
+            </container>
+        </root>
+    </jcr:content>
+    <news/>
+    <about-us/>
+    <contact-us/>
+</jcr:root>

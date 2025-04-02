@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:isTransCreated="{Boolean}true"
+        cq:lastModified="{Date}2025-03-31T20:00:09.395+05:30"
+        cq:lastModifiedBy="admin"
+        cq:lastTranslationUpdate="{Date}2025-03-31T20:00:09.395+05:30"
+        cq:template="/conf/GowthamAssignment/settings/wcm/templates/news-page"
+        cq:translationSourcePath="/content/GowthamAssignment/us/en/news-room/contact-us"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Contact Us"
+        sling:resourceType="GowthamAssignment/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="GowthamAssignment/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="GowthamAssignment/components/container"
+                layout="responsiveGrid">
+                <title
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="GowthamAssignment/components/title"/>
+                <container
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="GowthamAssignment/components/container"
+                    layout="responsiveGrid">
+                    <text
+                        jcr:created="{Date}2025-03-31T19:20:44.999+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2025-03-31T19:21:38.723+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="GowthamAssignment/components/text"
+                        text="&lt;h3>&lt;b>Contact Us&lt;/b>&lt;/h3>&#xd;&#xa;&lt;p>We’d love to hear from you! Whether you have a question, feedback, or a news tip, feel free to reach out to us. Our team is always ready to assist you.&lt;/p>&#xd;&#xa;&lt;p>\ud83d\udccd &lt;b>Office Address: &lt;/b>28C, Kottai Vasel East Street, Ariyalur&lt;/p>&#xd;&#xa;&lt;p>\ud83d\udcde &lt;b>Phone:&lt;/b>+91 9999999&lt;/p>&#xd;&#xa;&lt;p>\ud83d\udce7 &lt;b>Email:&lt;/b> gowtham&lt;a href=&quot;mailto:contact@newsroom.com&quot;>@newsroom.com&lt;/a>&lt;/p>&#xd;&#xa;&lt;p>You can also follow us on social media for the latest updates and exclusive content. &lt;b>Stay connected, stay informed!&lt;/b> \ud83d\ude80&lt;/p>&#xd;&#xa;"
+                        textIsRich="true"/>
+                </container>
+            </container>
+        </root>
+    </jcr:content>
+</jcr:root>

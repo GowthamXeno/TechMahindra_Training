@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2025-04-02T17:17:42.773+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/GowthamAssignment/settings/wcm/templates/newsportfolio-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Contact Us"
+        sling:resourceType="GowthamAssignment/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="GowthamAssignment/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="GowthamAssignment/components/container"
+                layout="responsiveGrid">
+                <text
+                    jcr:created="{Date}2025-04-02T17:17:04.834+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2025-04-02T17:17:15.072+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="GowthamAssignment/components/text"
+                    text="&lt;h1>&lt;b>Contact Me&lt;/b>&lt;/h1>&#xd;&#xa;&lt;h2>&lt;b>Stay Connected with Elaine Sciolino&lt;/b>&lt;/h2>&#xd;&#xa;&lt;p>Thank you for your interest in my work! Whether you’re a reader, journalist, student, or simply someone who loves exploring history, culture, and storytelling, I would love to hear from you. Feel free to reach out to me for inquiries, collaborations, or just to share your thoughts about my books and articles.&lt;/p>&#xd;&#xa;&lt;h2>&lt;b>Get in Touch&lt;/b>&lt;/h2>&#xd;&#xa;&lt;p>\ud83d\udccd &lt;b>Location:&lt;/b> Paris, France &amp;amp; New York, USA&lt;br>&#xd;&#xa;✉️ &lt;b>Email:&lt;/b> &lt;a href=&quot;mailto:elaine.sciolino@example.com&quot;>elaine.sciolino@example.com&lt;/a>&lt;br>&#xd;&#xa;\ud83d\udcde &lt;b>Phone:&lt;/b> +1 (212) 555-7890&lt;/p>&#xd;&#xa;&lt;p>For professional inquiries, book discussions, or media requests, please contact me via email. I try to respond to all messages, but due to a high volume of emails, please allow some time for a reply.&lt;/p>&#xd;&#xa;&lt;h2>&lt;b>Follow Me on Social Media&lt;/b>&lt;/h2>&#xd;&#xa;&lt;p>Stay updated with my latest articles, interviews, and book releases by following me on social media.&lt;/p>&#xd;&#xa;&lt;p>\ud83d\udd39 &lt;b>Twitter/X:&lt;/b> &lt;a href=&quot;https://twitter.com/elaine_sciolino&quot;>@ElaineSciolino&lt;/a> – Join the conversation and get updates on my latest work.&lt;/p>&#xd;&#xa;&lt;p>\ud83d\udd39 &lt;b>Instagram:&lt;/b> &lt;a href=&quot;https://www.instagram.com/elaine_sciolino&quot;>@ElaineSciolino&lt;/a> – Behind-the-scenes glimpses of my research, travels, and personal inspirations.&lt;/p>&#xd;&#xa;&lt;p>\ud83d\udd39 &lt;b>Facebook:&lt;/b> &lt;a href=&quot;https://www.facebook.com/elaine.sciolino&quot;>Elaine Sciolino&lt;/a> – Connect with me for discussions on books, culture, and history.&lt;/p>&#xd;&#xa;&lt;p>\ud83d\udd39 &lt;b>LinkedIn:&lt;/b> &lt;a href=&quot;https://www.linkedin.com/in/elaine-sciolino&quot;>Elaine Sciolino&lt;/a> – For professional connections, speaking engagements, and collaborations.&lt;/p>&#xd;&#xa;&lt;h2>&lt;b>Speaking Engagements &amp;amp; Book Events&lt;/b>&lt;/h2>&#xd;&#xa;&lt;p>I frequently participate in book fairs, literary festivals, and cultural discussions around the world. If you are interested in inviting me for an event, please contact my team at &lt;b>&lt;a href=&quot;mailto:events@elaineevents.com&quot;>events@elaineevents.com&lt;/a>&lt;/b>.&lt;/p>&#xd;&#xa;&lt;p>\ud83d\udcc5 &lt;b>Upcoming Events:&lt;/b>&lt;/p>&#xd;&#xa;&lt;ul>&#xd;&#xa;&lt;li>&lt;p>&lt;b>Paris Book Festival&lt;/b> – September 15, 2025&lt;/p>&#xd;&#xa;&lt;/li>&#xd;&#xa;&lt;li>&lt;p>&lt;b>New York Times Talks&lt;/b> – October 10, 2025&lt;/p>&#xd;&#xa;&lt;/li>&#xd;&#xa;&lt;li>&lt;p>&lt;b>History &amp;amp; Culture Symposium, London&lt;/b> – November 5, 2025&lt;/p>&#xd;&#xa;&lt;/li>&#xd;&#xa;&lt;/ul>&#xd;&#xa;&lt;p>Stay tuned for more events and book signings near you!&lt;/p>&#xd;&#xa;&lt;h2>&lt;b>Media &amp;amp; Press Inquiries&lt;/b>&lt;/h2>&#xd;&#xa;&lt;p>For interviews, media appearances, and article collaborations, please reach out to my publicist:&lt;/p>&#xd;&#xa;&lt;p>\ud83d\udce7 &lt;b>Press Contact:&lt;/b> &lt;a href=&quot;mailto:press@elainepress.com&quot;>press@elainepress.com&lt;/a>&lt;br>&#xd;&#xa;\ud83d\udcde &lt;b>Media Requests:&lt;/b> +1 (646) 555-1234&lt;/p>&#xd;&#xa;&lt;p>I appreciate the opportunity to share insights on journalism, France, and storytelling with new audiences.&lt;/p>&#xd;&#xa;&lt;h2>&lt;b>Join the Conversation&lt;/b>&lt;/h2>&#xd;&#xa;&lt;p>If you’ve read my books or articles, I’d love to hear your thoughts! Join discussions using the hashtag &lt;b>#ElaineSciolino&lt;/b> on social media and connect with fellow readers who share a love for culture, history, and great storytelling.&lt;/p>&#xd;&#xa;&lt;p>Let’s stay connected and continue exploring the world through words. I look forward to hearing from you!&lt;/p>&#xd;&#xa;&lt;p>\ud83d\udcd6 &lt;b>Happy Reading!&lt;/b> \ud83d\udcd6&lt;/p>&#xd;&#xa;"
+                    textIsRich="true">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="1"
+                            width="10"/>
+                    </cq:responsive>
+                </text>
+            </container>
+        </root>
+    </jcr:content>
+</jcr:root>

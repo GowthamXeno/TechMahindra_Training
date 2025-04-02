@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/GowthamAssignment" mode="merge"/>
+    <filter root="/content/GowthamAssignment" mode="merge"/>
+    <filter root="/content/dam/GowthamAssignment" mode="merge">
+        <exclude pattern="/content/dam/GowthamAssignment(/.*)?"/>
+        <include pattern="/content/dam/GowthamAssignment/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/GowthamAssignment/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/GowthamAssignment" mode="merge"/>
+</workspaceFilter>

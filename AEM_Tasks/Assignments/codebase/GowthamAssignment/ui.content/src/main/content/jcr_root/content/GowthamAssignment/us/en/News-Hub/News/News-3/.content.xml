@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2025-04-02T17:33:00.539+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/GowthamAssignment/settings/wcm/templates/newsportfolio-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="News 3"
+        sling:resourceType="GowthamAssignment/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="GowthamAssignment/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="GowthamAssignment/components/container"
+                layout="responsiveGrid">
+                <news_article
+                    jcr:created="{Date}2025-04-02T14:30:50.155+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2025-04-02T17:33:00.536+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="GowthamAssignment/components/news-article"
+                    newsDate="{Date}2025-04-01T00:00:00.000+05:30"
+                    newsDescription="The new UK immigration rules require employers in England to prioritise recruiting international care workers who are already here and seeking new sponsorship, before recruiting from overseas. From 9 April, care providers who want to recruit a new worker from overseas will have to first prove that they have attempted to recruit a worker from within England who needs new sponsorship.&#xd;&#xa;&#xd;&#xa;The new requirements continue government action announced in November to crack down on employers who abuse the visa system; barring those who repeatedly break immigration or employment laws from hiring overseas workers and will help support those workers into new jobs.&#xd;&#xa;&#xd;&#xa;The changes announced last year also ban companies from charging workers for the cost of their sponsorship, which has never been intended and led to exploitation, unfair treatment of staff and unsustainable levels of debt in the care sector."
+                    newsImage="https://www.financialexpress.com/wp-content/uploads/2025/04/UK-Reuters.jpg?w=1024"
+                    newsTitle="UK introduces new immigration rules for Skilled Worker visa"/>
+            </container>
+        </root>
+    </jcr:content>
+</jcr:root>

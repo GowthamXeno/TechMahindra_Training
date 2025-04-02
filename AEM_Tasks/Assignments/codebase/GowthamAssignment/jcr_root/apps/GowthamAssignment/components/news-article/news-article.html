@@ -1,0 +1,11 @@
+<sly data-sly-use.clientLib="/libs/granite/sightly/templates/clientlib.html"/>
+<sly data-sly-call="${clientLib.css @ categories='gowthamassignment.newsarticle'}"/>
+
+<div class="news-article">
+    <h2 class="news-title">${properties.newsTitle}</h2>
+    <p class="news-date">${properties.newsDate}</p>
+    <div class="news-image">
+        <img src="${properties.newsImage}" alt="${properties.newsTitle} Image">
+    </div>
+    <p class="news-description">${properties.newsDescription}</p>
+</div>

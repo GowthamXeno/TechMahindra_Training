@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:isDelivered="{Boolean}false"
+        cq:lastModified="{Date}2025-04-02T17:35:02.592+05:30"
+        cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2025-04-02T14:36:25.891+05:30"
+        cq:lastReplicated_publish="{Date}2025-04-02T14:36:25.891+05:30"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicatedBy_publish="admin"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_publish="Activate"
+        cq:template="/conf/GowthamAssignment/settings/wcm/templates/newsportfolio-template"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[cq:ReplicationStatus2,mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="News 5"
+        jcr:uuid="487526cf-c8b4-491d-924f-8a116e1e11a4"
+        sling:resourceType="GowthamAssignment/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="GowthamAssignment/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="GowthamAssignment/components/container"
+                layout="responsiveGrid">
+                <news_article
+                    jcr:created="{Date}2025-04-02T15:28:23.234+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2025-04-02T17:35:02.588+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="GowthamAssignment/components/news-article"
+                    newsDate="{Date}2025-03-11T00:00:00.000+05:30"
+                    newsDescription="A surge in new solar capacity is flooding the grid with power, pushing prices below zero, squeezing renewable profits, and deterring some investors.&#xd;&#xa;&#xd;&#xa;Europe’s solar energy season is getting longer and more intense, threatening to disrupt markets and overwhelm grids with a glut of cheap power.&#xd;&#xa;With longer days and sunnier skies, April drives up solar energy output, while warmer conditions lower heating demand across Europe.&#xd;&#xa;With longer days and sunnier skies, April drives up solar energy output, while warmer conditions lower heating demand across Europe.(Representational Image/Unsplash)&#xd;&#xa;&#xd;&#xa;Solar energy production surges in April as longer days combine with sunnier weather, while the warmer conditions also curb household heating demand. Swaths of new solar capacity is generating a flood of electricity that can drive power prices below zero, eating into the profits of renewable-energy producers and scaring off some investors."
+                    newsImage="https://www.hindustantimes.com/ht-img/img/2025/04/02/550x309/photo-1521618755572-156ae0cdd74d_1742359263033_1743584136168.jpg"
+                    newsTitle="Europe’s intensifying solar output strains grids, disrupts markets"/>
+            </container>
+        </root>
+    </jcr:content>
+</jcr:root>

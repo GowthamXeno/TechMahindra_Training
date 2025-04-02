@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2025-04-02T16:18:09.535+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/GowthamAssignment/settings/wcm/templates/newsportfolio-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="News"
+        sling:resourceType="GowthamAssignment/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="GowthamAssignment/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="GowthamAssignment/components/container"
+                layout="responsiveGrid">
+                <title
+                    jcr:created="{Date}2025-04-02T16:16:39.775+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2025-04-02T16:18:09.535+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Latest News"
+                    sling:resourceType="GowthamAssignment/components/title"
+                    id="headinglatestnews"
+                    linkTarget="_self"
+                    type="h1"/>
+                <newsroom
+                    jcr:created="{Date}2025-04-02T15:53:54.424+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2025-04-02T16:15:08.474+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="GowthamAssignment/components/newsroom"
+                    newsPaths="[/content/GowthamAssignment/us/en/News-Hub/News/News-1,/content/GowthamAssignment/us/en/News-Hub/News/News-2,/content/GowthamAssignment/us/en/News-Hub/News/News-3,/content/GowthamAssignment/us/en/News-Hub/News/News-4,/content/GowthamAssignment/us/en/News-Hub/News/News-5]"/>
+            </container>
+        </root>
+    </jcr:content>
+    <News-1/>
+    <News-2/>
+    <News-3/>
+    <News-4/>
+    <News-5/>
+</jcr:root>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2025-03-31T19:18:51.406+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/GowthamAssignment/settings/wcm/templates/news-page"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="About Us"
+        sling:resourceType="GowthamAssignment/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="GowthamAssignment/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="GowthamAssignment/components/container"
+                layout="responsiveGrid">
+                <title
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="GowthamAssignment/components/title"/>
+                <container
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="GowthamAssignment/components/container"
+                    layout="responsiveGrid">
+                    <text
+                        jcr:created="{Date}2025-03-31T19:17:44.552+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2025-03-31T19:18:51.403+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="GowthamAssignment/components/text"
+                        text="&lt;h3>&lt;b>About Us&lt;/b>&lt;/h3>&#xd;&#xa;&lt;p>Welcome to &lt;b>GowthamAssignment Newsroom&lt;/b>, your trusted source for reliable and insightful news. Our mission is to deliver &lt;b>accurate, engaging, and up-to-date&lt;/b> information across various topics, keeping our readers informed and empowered.&lt;/p>&#xd;&#xa;&lt;h4>&lt;b>Who We Are&lt;/b>&lt;/h4>&#xd;&#xa;&lt;p>We are a team of passionate journalists and content creators committed to bringing you the latest updates, industry insights, and compelling stories.&lt;/p>&#xd;&#xa;&lt;h4>&lt;b>Our Vision&lt;/b>&lt;/h4>&#xd;&#xa;&lt;p>To provide a &lt;b>transparent, unbiased, and credible&lt;/b> news platform that educates, informs, and inspires.&lt;/p>&#xd;&#xa;&lt;h4>&lt;b>What We Cover&lt;/b>&lt;/h4>&#xd;&#xa;&lt;p>\ud83d\udcf0 &lt;b>Breaking News&lt;/b> – Stay ahead with the latest developments.&lt;br>&#xd;&#xa;\ud83d\udcca &lt;b>In-Depth Analysis&lt;/b> – Insights that matter.&lt;br>&#xd;&#xa;\ud83c\udf0d &lt;b>Global &amp;amp; Local Updates&lt;/b> – News that impacts you.&lt;/p>&#xd;&#xa;&lt;p>\ud83d\udccc &lt;b>Stay connected and explore our latest stories!&lt;/b> \ud83d\ude80&lt;/p>&#xd;&#xa;"
+                        textIsRich="true"/>
+                </container>
+            </container>
+        </root>
+    </jcr:content>
+</jcr:root>

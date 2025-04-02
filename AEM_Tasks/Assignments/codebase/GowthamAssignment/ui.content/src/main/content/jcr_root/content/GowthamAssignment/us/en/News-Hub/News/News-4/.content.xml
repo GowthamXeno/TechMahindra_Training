@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2025-04-02T17:36:35.038+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/GowthamAssignment/settings/wcm/templates/newsportfolio-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="News 4"
+        sling:resourceType="GowthamAssignment/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="GowthamAssignment/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="GowthamAssignment/components/container"
+                layout="responsiveGrid">
+                <news_article
+                    jcr:created="{Date}2025-04-02T14:31:41.874+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2025-04-02T17:36:35.035+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="GowthamAssignment/components/news-article"
+                    newsDate="{Date}2025-04-01T00:00:00.000+05:30"
+                    newsDescription=" Apple is reportedly planning to end software support for three iPhone models, with the release of iOS 19. According to a report by 9To5Mac, iPhone XS, iPhone XS Max, and iPhone XR will not receive the update for the next generation iOS version. Additionally, Apple is expected to drop support for the iPad (7th generation) with the release of iPadOS 19.&#xd;&#xa; &#xd;&#xa;Last month Apple announced that it will be hosting its annual Worldwide Developers Conference (WWDC) from June 9, where the company will likely unveil the next generation operating system for iPhones. With the update, Apple is likely planning a major revamp of the software with changes to design, system navigation, and more. iOS 19 is expected to start rolling out after the launch of the 2025 iPhone line up, likely in September.&#xd;&#xa; "
+                    newsImage="https://bsmedia.business-standard.com/_media/bs/img/article/2025-04/01/full/1743507123-7385.jpg?im=FitAndFill=(826,465)"
+                    newsTitle="iOS 19: Apple may drop software support for three iPhone models this year"/>
+            </container>
+        </root>
+    </jcr:content>
+</jcr:root>

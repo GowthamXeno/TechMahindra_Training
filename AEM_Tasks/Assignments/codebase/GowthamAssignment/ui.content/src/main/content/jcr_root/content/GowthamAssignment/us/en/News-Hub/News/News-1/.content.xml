@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2025-04-02T17:21:21.865+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/GowthamAssignment/settings/wcm/templates/newsportfolio-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="News 1"
+        sling:resourceType="GowthamAssignment/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="GowthamAssignment/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="GowthamAssignment/components/container"
+                layout="responsiveGrid">
+                <newsarticle
+                    jcr:created="{Date}2025-04-02T14:03:41.328+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2025-04-02T14:03:41.328+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="GowthamAssignment/components/newsarticle"/>
+                <newsarticle_918635812
+                    jcr:created="{Date}2025-04-02T14:03:59.856+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2025-04-02T14:03:59.856+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="GowthamAssignment/components/newsarticle"/>
+                <newsarticle_110459397
+                    jcr:created="{Date}2025-04-02T14:04:27.899+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2025-04-02T14:04:27.899+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="GowthamAssignment/components/newsarticle"/>
+                <news_article
+                    jcr:created="{Date}2025-04-02T14:05:15.975+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2025-04-02T17:21:21.860+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="GowthamAssignment/components/news-article"
+                    newsDate="{Date}2025-04-02T00:00:00.000+05:30"
+                    newsDescription="Donald Trump Tariff News Live Updates: The world is on edge as US President Donald Trump is set to announce reciprocal tariffs today on April 2 – a day which is being referred as the ‘Liberation Day‘. The tariffs, once announced, will immediately come into effect. Ahead of the tariff announcement, the White House slammed India for imposing 100% tariff on America’s agricultural products, highlighting a similar trade barrier in the EU, Japan, and Canada. This has added another level of anticipation for India surrounding the upcoming tariff announcement.&#xd;&#xa;&#xd;&#xa;A report from the Washington Post had said that Trump, along with his team, has created a plan to add a 20% tax on most goods that are imported in the United States. The report also mentions that Trump’s team is considering using the money from these new taxes to give people a tax refund or dividend.&#xd;&#xa;&#xd;&#xa;Trump will announce the tariffs in the Rose Garden of the White House. Although there has been no information regarding the schedule of the event, US Treasury Secretary Scott Bessent has said that the tariffs will be announced at 4 pm Washington time on April 2, which is 1:30 am IST.&#xd;&#xa;&#xd;&#xa;Speaking of impact, US companies that import goods will have to pay the new taxes, especially if the White House starts charging them “right away,” spokesperson Karoline Leavitt had suggested on Tuesday. According to a BBC report, higher the taxes, more companies will try to find ways to reduce those costs. They might change suppliers, ask business partners to share the costs, or raise prices for Americans. It’s a risky move because if they raise prices too much, customers might stop buying. This situation increases the possibility of a recession in the US and in other countries."
+                    newsImage="https://www.financialexpress.com/wp-content/uploads/2025/04/FotoJet-2025-04-02T064746.361.jpg?w=1024"
+                    newsTitle="Donald Trump Tariff Announcement"/>
+            </container>
+        </root>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,46 @@
+.news-article {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 100%;
+    margin: auto;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative; /* Needed for absolute positioning */
+}
+
+/* News Title */
+.news-title {
+    font-size: 24px;
+    color: #333;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Published Date - Moved to the Top-Right */
+.news-date {
+    font-size: 14px;
+    color: white;
+    background-color: blue;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 4px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+/* News Image */
+.news-image {
+    width: 80%;
+    height: auto;
+    margin: 30px 0 10px; /* Adjusted margin to ensure space below the date */
+    border-radius: 5px;
+}
+
+/* News Description */
+.news-description {
+    font-size: 16px;
+    color: #555;
+    text-align: center;
+}
